@@ -2,6 +2,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import AboutMe from "./components/AboutMe"
 import logo from "../src/wall-and-laptop-background.jpg";
 import Particles from "react-particles-js";
 
@@ -72,6 +73,7 @@ function App() {
       <Navbar />
 
       <Header />
+      <AboutMe/>
     </>
   );
 }

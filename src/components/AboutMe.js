@@ -10,7 +10,7 @@ const AboutMe = () => {
           </div>
         </div>
 
-        <div className="col-lg-6 col-xm-12">
+        <div className="col-lg-6 col-xm-12 p">
           <h1 className="about-heading">about me</h1>
           <p>
             Hello! I am Wilson. I have been developing websites for over 2

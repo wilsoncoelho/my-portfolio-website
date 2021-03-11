@@ -5,20 +5,11 @@ const Header = () => {
   return (
     <div className="header-wraper">
       <div className="main-info">
-        <h1>wilson coelho</h1>
+        <h1>Wilson Coelho</h1>
         <Typed
           className="typed-text"
           strings={[
-            "React Js",
-            "React Native",
-            "Redux",
-            "React Hooks",
-            "Design Patterns",
-            "Native-Base",
-            "Node.js",
-            "Express",
-            "CSS Styling",
-            "Cross-Platform","React Native Mobile Apps", "React Web Apps"   
+            "Web Applications" , "React Native Mobile Apps", "IBM Cognos TM1", "Automation"
           ]}
           typeSpeed={60}
           backSpeed={60}

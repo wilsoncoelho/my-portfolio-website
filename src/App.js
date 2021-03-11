@@ -6,13 +6,14 @@ import AboutMe from "./components/AboutMe"
 import Services from "./components/Services"
 import logo from "../src/wall-and-laptop-background.jpg";
 import Particles from "react-particles-js";
+import Experience from "./components/Experience";
 
 function App() {
   return (
     <>
  
       <div className="tsparticles-canvas-el">
-        <Particles className="particles-canvas"
+        {/* <Particles className="particles-canvas"
           params={{
             particles: {
               number: {
@@ -68,7 +69,29 @@ function App() {
               },
             },
           }}
-        />
+        /> */}
+
+<Particles
+        className="particles-canvas"
+        params={{
+          particles: {
+            number: {
+              value: 30,
+              density: {
+                enable: true,
+                value_area: 900
+              }
+            },
+            shape: {
+              type: "circle",
+              stroke: {
+                width: 6,
+                color: "#f9ab00"
+              }
+            }
+          }
+        }}
+      />
       </div>
 
       <Navbar />
@@ -76,6 +99,7 @@ function App() {
       <Header />
       <AboutMe/>
       <Services/>
+      <Experience/>
     </>
   );
 }

@@ -9,7 +9,7 @@ const Header = () => {
         <Typed
           className="typed-text"
           strings={[
-            "Web Applications" , "React Native Mobile Apps", "IBM Cognos TM1", "Automation"
+            "Web Applications" , "React Native Mobile Apps", "IBM Cognos TM1", "Robotic Process Automation"
           ]}
           typeSpeed={60}
           backSpeed={60}

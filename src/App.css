@@ -40,6 +40,8 @@
 :root {
   --primary-white: #fff;
   --primary-orange: #fcaf3b;
+  --primary-grey:#ccd1d9;
+  /* --primary- */
   --primary-light-grey: #f4f4f4;
   --primary-dark: rgba(52, 58, 64);
   --primary-red:#ef4035;
@@ -165,7 +167,8 @@ nav ul li {
 
 @media (max-width: 768px) {
   .particles-canvas {
-    display: none;
+    /* display: none; */
+    margin-top: 12rem;
   }
 }
 
@@ -273,6 +276,11 @@ p {
   color:var(--primary-white);
 }
 
+.services .box  p{
+
+  margin-top: 1.365rem;
+}
+
 .icon{
   font-size:1.4rem;
   color:var(--primary-white);
@@ -281,4 +289,6 @@ p {
   left:50%;
   transform :translate(-50%, -50%);
 }
+
+
 

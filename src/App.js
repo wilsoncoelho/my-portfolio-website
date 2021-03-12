@@ -95,11 +95,10 @@ function App() {
       </div>
 
       <Navbar />
-
       <Header />
       <AboutMe/>
       <Services/>
-      <Experience/>
+  
     </>
   );
 }

@@ -98,6 +98,7 @@ function App() {
       <Header />
       <AboutMe/>
       <Services/>
+      <Experience/>
   
     </>
   );

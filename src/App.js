@@ -7,6 +7,7 @@ import Services from "./components/Services"
 import logo from "../src/wall-and-laptop-background.jpg";
 import Particles from "react-particles-js";
 import Experience from "./components/Experience";
+import Portfolio from "./components/Potrfolio"
 
 function App() {
   return (
@@ -99,6 +100,7 @@ function App() {
       <AboutMe/>
       <Services/>
       <Experience/>
+      <Portfolio/>
   
     </>
   );

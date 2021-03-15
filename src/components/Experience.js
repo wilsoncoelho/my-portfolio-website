@@ -19,7 +19,7 @@ const Experience = () => {
             <div className="marker"></div>
             <div className="timeline-content">
               <h3>2014-2015</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
+              <p><b>Lorem ipsum dolor sit amet consectetur</b>, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
             </div>
           </div>
           {/* - */}
